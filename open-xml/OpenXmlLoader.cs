@@ -1,13 +1,9 @@
-﻿using DocumentFormat.OpenXml.Packaging;
+﻿using System.Data;
+using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Spreadsheet;
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using TestTask3.interfaces;
 
-namespace TestTask3
+namespace TestTask3.openXml
 {
     internal class OpenXmlLoader(string path) : ITableLoader
     {

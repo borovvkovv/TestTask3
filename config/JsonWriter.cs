@@ -1,12 +1,8 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using TestTask3.interfaces;
 
-namespace TestTask3
+namespace TestTask3.config
 {
     internal class JsonWriter(string filePath): IWriter
     {
